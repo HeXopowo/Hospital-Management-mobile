@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/surface">
+
+        <!-- Имя врача -->
+        <TextView
+            android:id="@+id/tvDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Иван Иванов"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Специализация -->
+        <TextView
+            android:id="@+id/tvSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Терапевт"
+            android:textSize="16sp"
+            android:textColor="@color/primary_color"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Кабинет -->
+            <TextView
+                android:id="@+id/tvRoom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Каб. 101"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+            <!-- График -->
+            <TextView
+                android:id="@+id/tvSchedule"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Пн-Пт 8:00-16:00"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/ic_schedule"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+        </LinearLayout>
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="doctor@clinic.ru"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/warm_gray_500" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

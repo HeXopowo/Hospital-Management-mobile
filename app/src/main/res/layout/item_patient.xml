@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/surface">
+
+        <!-- Имя пациента -->
+        <TextView
+            android:id="@+id/tvPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Петр Петров"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="4dp">
+
+            <!-- Дата рождения -->
+            <TextView
+                android:id="@+id/tvBirthDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Дата рождения: 1990-01-01"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/ic_cake"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+            <!-- Телефон -->
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Тел: +79161234567"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+        </LinearLayout>
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="patient@mail.ru"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/warm_gray_500" />
+
+        <!-- СНИЛС -->
+        <TextView
+            android:id="@+id/tvSnils"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="СНИЛС: 123-456-789 00"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_id_card"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/warm_gray_500" />
+
+        <!-- Полис ОМС -->
+        <TextView
+            android:id="@+id/tvPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Полис: 1234567890123456"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_medical"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/warm_gray_500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Участок -->
+            <TextView
+                android:id="@+id/tvDistrict"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Участок: 1"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+            <!-- Адрес -->
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ул. Ленина, д. 10"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="4dp"
+                android:drawableTint="@color/warm_gray_500" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

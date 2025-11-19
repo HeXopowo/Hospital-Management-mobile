@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема приложения -->
+    <style name="Base.Theme.HospitalManagement" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+
+        <!-- Фон и поверхность -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+
+        <!-- Ошибки и состояния -->
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Статус бар -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Стили для меню -->
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:itemTextAppearance">@style/MenuTextStyle</item>
+        <item name="android:listViewStyle">@style/MenuListStyle</item>
+
+        <!-- Дополнительные настройки Material 3 -->
+        <item name="materialThemeOverlay">@style/ThemeOverlay.HospitalManagement</item>
+
+        <!-- Формы элементов -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.HospitalManagement.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.HospitalManagement.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.HospitalManagement.Large</item>
+    </style>
+
+    <!-- Основная тема -->
+    <style name="Theme.HospitalManagement" parent="Base.Theme.HospitalManagement" />
+
+    <!-- Темная тема -->
+    <style name="Base.Theme.HospitalManagement.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/brown_300</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="colorSecondaryVariant">@color/amber_500</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <item name="android:colorBackground">@color/warm_gray_900</item>
+        <item name="colorSurface">@color/warm_gray_800</item>
+        <item name="colorOnSurface">@color/warm_gray_100</item>
+        <item name="colorOnBackground">@color/warm_gray_100</item>
+
+    </style>
+
+    <!-- Overlay для кастомизации -->
+    <style name="ThemeOverlay.HospitalManagement" parent="">
+        <item name="cardViewStyle">@style/CardView.HospitalManagement</item>
+        <item name="buttonStyle">@style/Button.HospitalManagement</item>
+        <item name="materialButtonStyle">@style/MaterialButton.HospitalManagement</item>
+    </style>
+
+    <!-- Стили для скругленных углов -->
+    <style name="ShapeAppearance.HospitalManagement.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.HospitalManagement.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.HospitalManagement.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Стиль для CardView -->
+    <style name="CardView.HospitalManagement" parent="CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <!-- Стиль для кнопок -->
+    <style name="Button.HospitalManagement" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="MaterialButton.HospitalManagement" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Стиль для Toolbar -->
+    <style name="Toolbar.HospitalManagement" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/text_on_primary</item>
+        <item name="subtitleTextColor">@color/primary_light</item>
+        <item name="android:background">@color/primary_color</item>
+    </style>
+</resources>

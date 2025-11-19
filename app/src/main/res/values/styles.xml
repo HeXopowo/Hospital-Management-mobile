@@ -1,0 +1,16 @@
+<resources>
+    <!-- Стиль для текста меню -->
+    <style name="MenuTextStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Стиль для пунктов меню -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Стиль для списка меню -->
+    <style name="MenuListStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

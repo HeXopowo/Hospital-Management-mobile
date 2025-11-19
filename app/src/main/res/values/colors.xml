@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные коричневые оттенки -->
+    <color name="brown_50">#EFEBE9</color>
+    <color name="brown_100">#D7CCC8</color>
+    <color name="brown_200">#BCAAA4</color>
+    <color name="brown_300">#A1887F</color>
+    <color name="brown_400">#8D6E63</color>
+    <color name="brown_500">#795548</color>
+    <color name="brown_600">#6D4C41</color>
+    <color name="brown_700">#5D4037</color>
+    <color name="brown_800">#4E342E</color>
+    <color name="brown_900">#3E2723</color>
+
+    <!-- Акцентные теплые цвета -->
+    <color name="amber_500">#FFC107</color>
+    <color name="amber_700">#FFA000</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_700">#F57C00</color>
+    <color name="deep_orange_500">#FF5722</color>
+    <color name="deep_orange_700">#E64A19</color>
+
+    <!-- Основные цвета для темы -->
+    <color name="primary_color">#795548</color>
+    <color name="primary_dark">#5D4037</color>
+    <color name="primary_light">#D7CCC8</color>
+
+    <!-- Акцентные цвета -->
+    <color name="accent_color">#FFA000</color>
+    <color name="accent_dark">#FF8F00</color>
+    <color name="accent_light">#FFECB3</color>
+
+    <!-- Статус и важные действия -->
+    <color name="success_color">#689F38</color>
+    <color name="warning_color">#FFA000</color>
+    <color name="error_color">#D32F2F</color>
+    <color name="info_color">#1976D2</color>
+
+    <!-- Оттенки серого с теплым подтоном -->
+    <color name="warm_gray_50">#FAFAF9</color>
+    <color name="warm_gray_100">#F5F5F4</color>
+    <color name="warm_gray_200">#E7E5E4</color>
+    <color name="warm_gray_300">#D6D3D1</color>
+    <color name="warm_gray_400">#A8A29E</color>
+    <color name="warm_gray_500">#78716C</color>
+    <color name="warm_gray_600">#57534E</color>
+    <color name="warm_gray_700">#44403C</color>
+    <color name="warm_gray_800">#292524</color>
+    <color name="warm_gray_900">#1C1917</color>
+
+    <!-- Фоновые цвета -->
+    <color name="background">#FDF8F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F3EDE9</color>
+
+    <!-- Текст -->
+    <color name="text_primary">#1C1917</color>
+    <color name="text_secondary">#57534E</color>
+    <color name="text_hint">#A8A29E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_accent">#1C1917</color>
+
+    <!-- Границы и разделители -->
+    <color name="outline">#D6D3D1</color>
+    <color name="outline_variant">#E7E5E4</color>
+
+    <!-- Стандартные цвета (для совместимости) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Устаревшие цвета (можно удалить после обновления) -->
+    <color name="purple_200">#D7CCC8</color>
+    <color name="purple_500">#795548</color>
+    <color name="purple_700">#5D4037</color>
+    <color name="teal_200">#FFECB3</color>
+    <color name="teal_700">#FFA000</color>
+</resources>

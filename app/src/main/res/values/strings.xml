@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Hospital Management</string>
+
+    <!-- Логин -->
+    <string name="login_title">Система управления поликлиникой</string>
+    <string name="username_hint">Имя пользователя</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Вход</string>
+    <string name="register_button">Регистрация</string>
+    <string name="test_account">Тестовый аккаунт: admin / admin123</string>
+
+    <!-- Главная -->
+    <string name="welcome">Добро пожаловать</string>
+    <string name="doctors_section">Врачи</string>
+    <string name="patients_section">Пациенты</string>
+    <string name="empty_doctors">Нет доступных врачей</string>
+    <string name="empty_patients">Нет доступных пациентов</string>
+
+    <!-- Меню -->
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_logout">Выход</string>
+
+    <!-- Управление врачами -->
+    <string name="add_doctor_title">Добавление врача</string>
+    <string name="edit_doctor_title">Редактирование врача</string>
+    <string name="first_name_hint">Имя</string>
+    <string name="last_name_hint">Фамилия</string>
+    <string name="specialization_hint">Специализация</string>
+    <string name="room_number_hint">Номер кабинета</string>
+    <string name="schedule_hint">График работы</string>
+    <string name="email_hint">Email</string>
+    <string name="save_button">Сохранить</string>
+    <string name="update_button">Обновить</string>
+    <string name="delete_button">Удалить</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="doctor_required_fields">Примечание: все поля обязательны для заполнения</string>
+
+    <!-- Управление пациентами -->
+    <string name="add_patient_title">Добавление пациента</string>
+    <string name="edit_patient_title">Редактирование пациента</string>
+    <string name="birth_date_hint">Дата рождения (ГГГГ-ММ-ДД)</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="snils_hint">СНИЛС (XXX-XXX-XXX XX)</string>
+    <string name="policy_hint">Полис ОМС (16 цифр)</string>
+    <string name="district_hint">Участок</string>
+    <string name="address_hint">Адрес</string>
+    <string name="patient_required_fields">Примечание: поля Имя, Фамилия и Email обязательны для заполнения</string>
+
+    <!-- Сообщения -->
+    <string name="login_success">Вход выполнен успешно</string>
+    <string name="login_error">Неверный логин или пароль</string>
+    <string name="save_success">Данные сохранены</string>
+    <string name="save_error">Ошибка сохранения</string>
+    <string name="delete_success">Удалено успешно</string>
+    <string name="delete_error">Ошибка удаления</string>
+    <string name="validation_error">Пожалуйста, проверьте введенные данные</string>
+</resources>
